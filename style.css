@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 250px;
+}
+
+.progress-bar-container{
+    background: #efefef;
+    height: 25px;
+    width: 150px;
+    margin: 50px auto;
+}
+
+.progress-bar{
+    background: #f05042;
+    height: 100%;
+    width: 60%;
+    transition: width 2s ease;
+}
+
+.second-type-of-progress-bars{
+    width: 30%;
+    float:left;
+}
+
+.first{
+    background: green;
+}
+
+.second{
+    background: blue;
+}
+
+.third{
+    background:red;
+}
